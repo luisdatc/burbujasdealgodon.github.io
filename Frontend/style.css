@@ -1,0 +1,153 @@
+/*GOOGLE FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap");
+
+/*CSS GOOGLE FONT RULES*/
+/*font-family: 'Dongle', sans-serif;*/
+
+/*NAVBAR CSS*/
+/* .navbar { */
+/* box-shadow: none !important;
+    background: url(web/Algodon_fondoNAV.png);
+    background-repeat: repeat-x;
+    background-size:contain;
+    position: relative;
+    z-index: auto;
+    padding: 0% !important;
+    height: 115.99px; */
+/* } */
+
+/* li.nav-item.redes {
+  display: flex;
+  width: 35.62 px;
+  height: 35.62 px;
+}
+
+.nav-item .nav-link .iconosnav {
+  width: 48px;
+  height: 48px;
+  opacity: 0;
+}
+
+.nav-item .nav-link .iconosnav:hover {
+  opacity: 1;
+} */
+
+/*VIDEO CSS*/
+
+.home__video {
+  margin-top: -20rem;
+  margin-bottom: -70rem;
+}
+.videoback {
+  padding: 0%;
+  margin: 0%;
+  height: auto;
+  position: relative;
+  z-index: -5;
+}
+/* #boxvideo {
+  position: relative;
+  z-index: 1;
+  left: calc(50% - 958px / 2);
+  top: calc(50% - 245px / 2 - 1px);
+  bottom: 167.96px;
+  top: -320.02px;
+  width: 958px;
+  height: 245px;
+  opacity: 0.8;
+} */
+
+.home__boxvideo {
+  position: relative;
+  z-index: 20;
+  opacity: 0.9;
+  background: url(./web/box1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150rem;
+  height: 50rem;
+  margin: 0 auto;
+  top: -75rem;
+  text-align: center;
+}
+
+.home__boxvideo-tittle {
+  padding-top: 10rem;
+  font-family: "Dongle", sans-serif;
+  font-size: 10rem;
+  font-weight: 700;
+  color: #4557f6;
+}
+
+.home__boxvideo-bajada {
+  font-family: "Dongle", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.home__boxvideo-botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home__boxvideo-btn-verde {
+  border-radius: 15rem;
+  background-color: #2b6100;
+  color: white;
+  font-family: "Dongle", sans-serif;
+  font-size: 7rem;
+  padding: 0 2rem;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+.home__boxvideo-btn-blue {
+  border-radius: 15rem;
+  background-color: #4557f6;
+  color: white;
+  font-family: "Dongle", sans-serif;
+  font-size: 7rem;
+  padding: 0 2rem;
+  text-decoration: none;
+}
+
+/*SECCION DEBAJO DEL VIDEO CSS*/
+.seccion3 {
+  height: 30rem;
+  position: relative;
+  z-index: -1;
+  background: linear-gradient(269.17deg, #d4ff79 19.71%, #c2c8ff 50.72%);
+  top: 10rem;
+  padding: 30px;
+  margin-top: -30rem;
+}
+
+.seccion3-txt {
+  font-family: "Dongle", sans-serif;
+  font-size: 10rem;
+  margin-top: 5rem;
+}
+.seccion31 {
+  top: -10rem;
+  position: relative;
+  z-index: 90;
+}
+
+.seccion31.lego {
+  width: 40rem;
+  top: -10rem;
+  left: -20px;
+  z-index: 10;
+}
+#robot {
+  width: 40rem;
+  position: relative;
+  z-index: 85;
+  top: -10rem;
+  right: -30rem;
+}
+
+body {
+  background-color: transparent;
+}
